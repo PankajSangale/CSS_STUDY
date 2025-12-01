@@ -1,0 +1,61 @@
+/* *{
+color:pink;         (this used to apply for all know as universal selector)
+
+} */
+
+h1{
+color :blue ;     /*---this is know as element selector in simple lang changes applicable for h1 only */
+}
+#headingtwo{
+color:saddlebrown;   /*---id selector check */ 
+ 
+}
+.class selector check{
+
+    color:black;   
+}
+p{
+    color: rgb(0, 255, 106);
+}
+   
+body{
+
+    background-color:rgba(128, 57, 131, 0.658); /*---color change using rgb*/
+h2{
+color: #FF0000; 
+}  /*--- color change using hex */
+}
+#para2 { 
+    text-align: start;
+    color: blue ; 
+}  /*left, right, start,end, center*/
+h3 {
+    text-decoration: underline; 
+} /*underline, overline, ling through*/
+a {
+    text-decoration: none; 
+    color: red;
+} /*you can use for remove for any link underline*/
+
+#p1 {
+
+    font-weight:lighter;
+}
+#p2 {
+    font-weight:bolder;
+}                                 /*this used for change font weight */
+#p3 {
+
+    font-weight: lighter;
+ font-family: Arial, Helvetica, sans-serif;
+
+}      /*font family used for change font*/
+
+#one {
+    font-size: 15px;  
+    line-height: normal;  
+    text-transform: capitalize;
+}   /*change px font size height between rows 3 set uppercase lowercase capitalize*/
+#three {
+    font-size: 12px;
+}
